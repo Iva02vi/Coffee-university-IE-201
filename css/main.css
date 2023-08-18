@@ -1,0 +1,339 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%;
+	letter-spacing: 0.5px;
+	text-transform: none;
+	background: #EAE7DC;
+	color: #582376;
+	width: 100%;
+}
+h1, h2, h3 {
+	font-family: 'Lobster', cursive;
+	padding: 15px;
+	letter-spacing: 1.5px;
+	line-height: 120%;
+}
+h1 {
+	text-align: center;
+	color: #3e034a;
+	font-size: 35px;
+	padding: 20px;
+}
+h2 {
+	font-size: 30px;
+}
+section {
+	text-align: justify;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+p, h2, h3 {
+	text-indent: 3%;
+}
+p {
+	padding-bottom: 5px;
+}
+p, h1, h2, h3, li {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+header{
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../img/head1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+}
+.headtext {
+	font-size: 50px;
+	padding: 2%;
+	line-height: 60px;
+	font-family: 'Philosopher', sans-serif;
+	color: #E8D5B5;
+}
+.headtext2 {
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+}
+.nav {
+	width: 70%;
+}
+.nav-l {
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+	justify-content: center;
+}
+.nav-l>* {	
+	min-width: 90px;
+}
+.nav-l a {
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo a:link, a:visited, a:active {
+	color: #E8D5B5;
+}
+.logo a:hover {
+	color: #BBA7EA;
+}
+.nav-l a:hover {
+	color: #3e034a;
+	background: #E8D5B5;
+	border-radius: 100px;
+}
+.activeNav {
+	color: #E8D5B5;
+	background: #3e034a;
+	border-radius: 100px;
+}
+#navbar {
+	display: flex;
+	padding: 2%;
+	justify-content: space-between;
+	align-items: center;
+}
+#navbar>* {
+	padding: 10px;
+}
+.logo {
+	width: 15%;
+	font-size: 30px;
+}
+.head_btn {
+	width: 15%;
+}
+.upimg {
+	text-align: center;
+}
+.h3list {
+	text-indent: 0%;
+}
+.bg-decor {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../img/kofeslavandoy4.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat-y;
+	color: #E8D5B5;
+}
+.bg-muted {
+	background: radial-gradient(rgb(246,238,226), rgb(238,224,200), rgb(62, 3, 74) 130%);
+	color: #582376;
+}
+a {
+	transition: 200ms ease-in-out;
+	transition-property: color, background, border-radius;
+	text-decoration: none;
+	font-weight: 700;
+	padding: 7px;
+}
+.l-link a:link, .l-link a:visited {
+	color: #E8D5B5;
+}
+.l-link a:hover {
+	background: #E8D5B5;
+	color: #3e034a;
+	border-radius: 100px;
+}
+.l-link a:active {
+	color: #BBA7EA;
+}
+
+.d-link a:link, .d-link a:visited {
+	color: #3e034a;
+}
+.d-link a:hover {
+	background: #3e034a;
+	color: #E8D5B5;
+	border-radius: 100px;
+}
+.d-link a:active {
+	color: #BBA7EA;
+}
+.btn {
+	padding: 0 12px;
+	height: 50px;
+	width: auto;
+	display: inline-block;
+	box-sizing: content-box;
+	line-height: 50px;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-family: 'Philosopher', sans-serif;
+	border: none;
+
+}
+.btn-light {
+	background: #E8D5B5;
+	color: #3e034a;
+	transition: 150ms ease-in-out;
+	transition-property: color, background, font-weight, font-size;
+}
+.btn-light:link, .btn-light:visited {
+	color: #3e034a;
+	font-weight: 400;
+}
+.btn-light:hover {
+	font-weight: 700;
+	font-size: 18px;
+}
+.btn-light:active {
+	color: #E8D5B5;
+	background: #3e034a;
+}
+
+.btn-dark {
+	background: #3e034a;
+	color: #E8D5B5;
+	transition: 150ms ease-in-out;
+	transition-property: color, background, font-weight, font-size;
+}
+.btn-dark:link, .btn-dark:visited {
+	color: #E8D5B5;
+	font-weight: 400;
+}
+.btn-dark:hover {
+	font-weight: 700;
+	font-size: 18px;
+}
+.btn-dark:active {
+	color: #3e034a;
+	background: #E8D5B5;
+}
+
+.btn-text {
+	color: #3e034a;
+	transition: 150ms ease-in-out;
+	transition-property: color, font-weight, font-size;
+}
+.btn-text:link, .btn-text:visited {
+	color: #3e034a;
+	font-weight: 400;
+}
+.btn-text:hover {
+	font-weight: 700;
+	font-size: 18px;
+}
+.btn-text:active {
+	color: #E8D5B5;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+.grid>* {
+	display: flex;
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 30px 0;
+}
+/*.col-4>* {
+	width: 25%;
+}
+.col-2>* {
+	width: 50%;
+}*/
+.col>* {
+	flex-direction: column;
+}
+.row>* {
+	flex-direction: row;
+}
+.center {
+	text-indent: 0;
+	text-align: center;
+}
+.centerBlock, .foot_nav>*, .container, .container>* {
+	margin-left: auto;
+	margin-right: auto;
+}
+.container {
+	max-width: 1300px;
+}
+.container>* {
+	max-width: 80%;
+}
+.fixed_bg {
+	min-height: 200px;
+	background-image: url(../img/kofeslavandoy.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50%;
+}
+footer {
+	padding: 1%;
+	text-indent: 0%;
+	text-indent: 0; 
+	background: linear-gradient(to top, rgb(37, 2, 44), rgb(238,224,200), rgb(37, 2, 44) 100%);
+	color: #E8D5B5;
+}
+
+@media (max-width: 640px) {
+	.col-4>* {
+		width: 100%;
+	}
+	.col-2>* {
+		width: 100%;
+	}
+	.col-2>.away-img {
+		width: 50%;
+	}
+	.logo {
+		width: 40%;
+	}
+	.head_btn {
+		width: 40%;
+	}
+	.nav {
+		width: 20%;
+	}
+	.nav-l {
+		flex-direction: column;
+	}
+}
+@media (min-width: 641px) and (max-width: 960px) {
+	.col-4>* {
+		width: 50%;
+	}
+	.col-2>* {
+		width: 100%;
+	}
+	.col-2>.away-img {
+		width: 50%;
+	}
+	#navbar {
+		flex-direction: column;
+	}
+}
+@media (min-width: 961px) and (max-width: 1200px) {
+	.col-4>* {
+		width: 50%;
+	}
+	.col-2>* {
+		width: 50%;
+	}
+}
+@media (min-width: 1201px) {
+	.col-4>* {
+		width: 25%;
+	}
+	.col-2>* {
+		width: 50%;
+	}
+}

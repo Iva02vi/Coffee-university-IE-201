@@ -1,0 +1,79 @@
+.card_text {
+	text-align: justify;
+}
+[alt="c-coffee"] {
+	height: 100px;
+}
+.row [alt="coffee_nap"] {
+	width: 70px;
+	height: 70px;
+	border-radius: 100px;
+}
+.nap_img {
+	width: 15%;
+}
+.nap_text {
+	width: 70%;
+	padding: 0 15px;
+}
+.nap_price {
+	width: 15%;
+}
+[alt="badge"] {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	margin-left: auto;
+	margin-right: -90px; 
+	margin-top: 20px;
+}
+.away-text {
+	flex-direction: column;
+}
+
+[alt="card-img1"] {
+	height: 270px;
+	margin-top: -30px;
+}
+[alt="card-img2"] {
+	height: 270px;
+}
+.com_btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media (max-width: 640px) {
+	[alt="badge"] {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: -130px;
+	}
+	.cof-inf1 {
+		flex-direction: row;
+	}
+	.cof-inf2 {
+		flex-direction: row-reverse;
+	}
+	.card_img {
+		width: 25%;
+	}
+	.card_heading {
+		width: 25%;
+	}
+	.card_text {
+		width: 50%;
+	}
+}
+@media (min-width: 641px) and (max-width: 960px) {
+	[alt="badge"] {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: -130px;
+	}
+	.away-cards {
+		justify-content: center;
+	}
+}
